@@ -1,0 +1,34 @@
+AClerck custom language-classification head — terms of use
+Issued by Ilia Andreev, 5 November 2026
+Contact: andreev.il.ost@gmail.com
+
+1. Covered component
+These terms apply only to Ilia Andreev's custom Linear(256,4) language-
+classification head: the weight [4,256] and bias [4] tensors trained by him
+using Mozilla Common Voice, with classes English=0, Russian=1, Arabic=2,
+Hebrew=3. The reference checkpoint is SpeechBrain.pth, SHA-256:
+be446821df0b3379cea7d7b47ce0c179f99992d8ed9b50ec68ff4d42581108b8.
+In AClerck's combined language_detector.onnx these are the classifier.weight
+and classifier.bias initializers. MODEL_CHANGES.md and the accompanying
+provenance documentation identify the component. The entire combined ONNX is not
+claimed as Ilia Andreev's exclusive original work.
+
+2. Permission for AClerck
+You may download, install, load and run the covered head for use as part of
+AClerck. This is a limited permission for that purpose, not an open-source or
+open-weights licence. No separate use in other products or standalone
+redistribution of the covered head is authorised without Ilia Andreev's
+prior consent, except to the extent permitted by applicable law. Nothing
+here limits rights that cannot lawfully be restricted.
+
+3. Third-party rights
+The SpeechBrain encoder, its feature-processing components, and all other
+third-party materials remain subject to their own licences and notices.
+These terms do not replace, restrict or reduce any rights granted by those
+licences. Packaging the encoder and the covered head together in one ONNX
+file does not change the rights in the third-party portions. See
+THIRD_PARTY_NOTICES.md and the accompanying original licence texts.
+
+4. User content
+These terms do not govern or impose restrictions on users' recordings,
+transcripts or other content created by users.
