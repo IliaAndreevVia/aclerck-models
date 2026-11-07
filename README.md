@@ -1,5 +1,13 @@
 # AClerck model packages
 
+## Production delivery 2026.11.07.1
+
+[Versioned delivery manifest](https://github.com/IliaAndreevVia/aclerck-models/releases/download/delivery-2026.11.07.1/model_delivery_manifest.json) · [release](https://github.com/IliaAndreevVia/aclerck-models/releases/tag/delivery-2026.11.07.1).
+Manifest SHA-256: `d5d8cbff4febf3b8f0de24fc85557a5c95c1d1b8bdccad97b1ca2e227b4aa646`.
+Validated signed AClerck 1.0.0/code 1, application model contract 2, on Samsung SM-A356E/API 36.
+The A35 build requires ARMv8.2 dot-product/FP16; other ARM64 devices are not certified. See release notes for the exact compatibility and remaining application release limits.
+Existing ZIP URLs and the original prerelease metadata below are preserved. Component-specific licences still apply; custom LID head use is limited to AClerck.
+
 Downloadable model resources for AClerck offline speech recognition and language identification.
 Weights are distributed only as GitHub Release assets; they are not stored in Git history.
 
